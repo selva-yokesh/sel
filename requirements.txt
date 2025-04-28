@@ -1,4 +1,11 @@
 Flask
 numpy
 scikit-learn
+xgboost
 Werkzeug
+pandas
+matplotlib
+seaborn
+requests
+flask-cors
+gunicorn
