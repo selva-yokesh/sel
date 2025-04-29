@@ -1,3 +1,9 @@
+$.post(url, { /* data */ })
+    .done(function(data) { /* handle success */ })
+    .fail(function(jqXHR, textStatus, errorThrown) {
+        console.error("Request failed: ", textStatus, errorThrown);
+        estPrice.innerHTML = "<h2>Error: Server request failed</h2>";
+    });
 function getBathValue() {
   var uiBathrooms = document.getElementsByName("uiBathrooms");
   for(var i in uiBathrooms) {
