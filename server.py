@@ -61,4 +61,4 @@ if __name__ == "__main__":
         print("Error: Model or columns file missing. Run train.py first.")
     else:
         load_details()
-        app.run(debug=True, port=5000)
+        app.run(host='0.0.0.0', port=5000, debug=True)
